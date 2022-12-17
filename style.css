@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+
+*{
+    margin: 0px;
+    background-color: #1D1E33;
+}
+
+hr{
+    border-color: red;
+    margin-bottom: 15px;
+}
+
+main p{
+    margin: 10px 0px 15px 0px;
+    font-size: 1.2rem;
+}
+
+#body{
+    margin-top: 70px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+    font-family: 'inter';
+    height: 70%;
+}
+
+#left{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+#left h1{
+    font-weight: bold;
+    font-size: 3.7rem;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#left h1 span:first-child{
+    color: red;
+}
+
+#top{
+    padding: 20px;
+    max-width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+#top div{
+    width: 950px;
+}
+
+#top button{
+    margin-top: 20px;
+    max-width: 156px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2F3052;
+}
+
+#top button a{
+    padding: 5px;
+    font-size: 1rem;
+    font-family: 'inter';
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: #2F3052;
+}
+
+#button{
+    max-width: 100%;
+}
+
+#button button{
+    margin-top: 20px;
+    max-width: 156px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+}
+#button button a{
+    background-color: red;
+    padding: 5px;
+    font-size: 1rem;
+    font-family: 'inter';
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+#button button:hover{
+    cursor:pointer;
+}
+
+#right img{
+    max-height: 550px;
+    border-radius: 20px;
+    box-shadow: 10px 13px 5px red;
+}
