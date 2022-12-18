@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+
+*{
+    margin: 0px;
+    background-color: #1D1E33;
+}
+
+#body{
+    margin: 20px;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+    font-family: 'inter';
+    height: 70%;
+}
+
+#left{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+#left img{
+    max-height: 500px;
+    max-width: 300px;
+}
+
+#left h1{
+    font-weight: bold;
+    color: red;
+    font-size: 3.7rem;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#center{
+    height: 500px;
+    border-left: 4px solid red;
+    border-radius: 25px;
+}
+
+#right input{
+    margin-bottom: 30px;
+    display: block;
+    border:none;
+    border-bottom: solid 2px white;
+    outline: 0;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    min-width: 100px;
+    width: 500px;
+}
+
+#right textarea{
+    font-family: 'inter';
+    resize: none;
+    margin-bottom: 20px;
+    display: block;
+    border:none;
+    border-bottom: solid 2px white;
+    outline: 0;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    min-width: 100px;
+    min-height: 100px;
+    width: 500px;
+    height: 150px;
+    max-height: 150px;
+    max-width: 500px; 
+}
+
+#right #enviar{
+    cursor: pointer;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 50px;
+    border-radius: 7px;
+    background-color: red;
+    border: none;
+    min-width: 100px;
+    height: 50px;
+    width: 100px;
+}
+
+#top{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#top button{
+    border: none;
+    max-width: 600;
+}
+
+#top button img{
+    cursor: pointer;
+    max-height: 50px;
+}
+
+#top div{
+    width: 900px;
+}
